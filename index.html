@@ -10,20 +10,21 @@
     <!-- Как поставить кавычкы внутри текста? -->
     <meta name="description" content="Официальный сайт курорта Синий луг">
 
+    <!-- Open Graph теги -->
     <meta property="og:title" content="Синий луг">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://misha.ru/">
-    <meta property="og:image" href="https://misha.ru/open-graph.png">
+    <meta property="og:url" content="https://bluefield.ru/">
+    <meta property="og:image" href="https://bluefield.ru/logo.png">
 </head>
 
 <body>
     <header>
         <a href="index.html">
-            <img src="links\logo.png" alt="Логотип компании Синий луг">
-            <p>Синий ЛУГ</p>
+            <img src="links/logo.png" alt="Логотип компании Синий луг">
+            <span class="text logo">Синий ЛУГ</span>
         </a>
+        <span>твой лучший курорт</span>
 
-        <p>твой лучший курорт</p>
         <ul>
             <li>
                 <a href="feedback.html">
@@ -41,42 +42,28 @@
     <nav>
         <ul>
             <li>
-                <a href="about.html">
-                    <span>Курорт</span>
-                </a>
+                <a href="about.html">Курорт</a>
             </li>
             <li>
-                <a href="activity.html">
-                    <span>Чем заняться</span>
-                </a>
+                <a href="about.html">Чем заняться</a>
             </li>
             <li>
-                <a href="book.html">
-                    <span>Купить онлайн</span>
-                </a>
+                <a href="about.html">Купить онлайн</a>
             </li>
             <li>
-                <a href="events.html">
-                    <span>Афиша мероприятий</span>
-                </a>
+                <a href="about.html">Афиша мероприятий</a>
             </li>
             <li>
-                <a href="apartments.html">
-                    <span>Проживание</span>
-                </a>
+                <a href="about.html">Проживание</a>
             </li>
         </ul>
 
         <ul>
             <li>
-                <a href="loyalty.html">
-                    <span>Программа лояльности</span>
-                </a>
+                <a href="about.html">Программа лояльности</a>
             </li>
             <li>
-                <a href="partners.html">
-                    <span>Для бизнеса</span>
-                </a>
+                <a href="about.html">Для бизнеса</a>
             </li>
         </ul>
     </nav>
@@ -89,105 +76,115 @@
 
         <h1>Отдыхай на курорте Синий луг</h1>
 
-        <article>
+        <section>
             <h2>Развлечения</h2>
 
-            <section>
-                <img src="links/image 5.png" alt="Изображение сноубордиста, который спускается по склону">
-                <p>Спортивные развлечения</p>
-            </section>
+            <div>
+                <figure>
+                    <img src="links/image 5.png" alt="Изображение сноубордиста, который спускается по склону">
+                    <figcaption>Спортивные развлечения</figcaption>
+                </figure>
 
-            <section>
-                <img src="links/image 11.png" alt="Изображение вывески развлекательного заведения">
-                <p>Развлекательные мероприятия</p>
-            </section>
+                <figure>
+                    <img src="links/image 11.png" alt="Изображение вывески развлекательного заведения">
+                    <figcaption>Развлекательные мероприятия</figcaption>
+                </figure>
 
-            <section>
-                <img src="links/image 9.png" alt="Изображение туристов, идущих по пересеченной местности">
-                <p>Пешие туры</p>
-            </section>
+                <figure>
+                    <img src="links/image 9.png" alt="Изображение туристов, идущих по пересеченной местности">
+                    <figcaption>Пешие туры</figcaption>
+                </figure>
 
-            <section>
-                <img src="links/image 10.png" alt="Изображение бассейна под открытым небом рядом со СПА-комплексом">
-                <p>Спа</p>
-            </section>
-        </article>
+                <figure>
+                    <img src="links/image 10.png" alt="Изображение бассейна под открытым небом рядом со СПА-комплексом">
+                    <figcaption>Спа</figcaption>
+                </figure>
+            </div>
+        </section>
 
-        <article>
+        <section>
             <h2>Проживание на курорте</h2>
 
-            <section>
-                <img src="links/image 3.png"
-                    alt="Изображение объектов размещения треугольной формы с окнами во всю высоту стены">
-                <h3>Апартаменты люкс</h3>
-                <ul>
-                    <li>
-                        <a href="book.html" class="primary">
-                            <span>Забронировать</span>
-                        </a>
-                    </li>
+            <div>
+                <article>
+                    <img src="links/image 3.png"
+                        alt="Изображение объектов размещения треугольной формы с окнами во всю высоту стены">
+                    <div>
+                        <h3>Апартаменты люкс</h3>
+                        <ul>
+                            <li>
+                                <a href="book.html" class="primary">
+                                    <span>Забронировать</span>
+                                </a>
+                            </li>
 
-                    <li>
-                        <a href="apartments.html" class="secondary">
-                            <span>посмотреть</span>
-                        </a>
-                    </li>
-                </ul>
-            </section>
+                            <li>
+                                <a href="apartments.html" class="secondary">
+                                    <span>посмотреть</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
 
-            <section>
-                <h3>Подберите отель<br>по выгодной цене</h3>
-                <ul>
-                    <li>
-                        <a href="hotels.html" class="secondary with icon">
-                            <span>Подобрать</span>
-                            <img src="links/Arrow 1.png">
-                        </a>
-                    </li>
-                </ul>
-            </section>
+                <article>
+                    <div>
+                        <h3>Подберите отель<br>по выгодной цене</h3>
+                        <ul>
+                            <li>
+                                <a href="hotels.html" class="secondary with icon">
+                                    <span>Подобрать</span>
+                                    <img src="links/Arrow 1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
 
-            <section>
-                <h3>Программа лояльности</h3>
-                <p>Покупайте услуги курорта со скидкой до 20% и получите до 300 баллов за регистрацию!</p>
-                <ul>
-                    <li>
-                        <a href="join.html" class="primary">
-                            <span>участвовать</span>
-                        </a>
-                    </li>
+                <article>
+                    <div>
+                        <h3>Программа лояльности</h3>
+                        <p>Покупайте услуги курорта со скидкой до 20% и получите до 300 баллов за регистрацию!</p>
+                        <ul>
+                            <li>
+                                <a href="join.html" class="primary">
+                                    <span>участвовать</span>
+                                </a>
+                            </li>
 
-                    <li>
-                        <a href="loyalty.html" class="secondary">
-                            <span>подробнее</span>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        </article>
+                            <li>
+                                <a href="loyalty.html" class="secondary">
+                                    <span>подробнее</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
 
     <hr>
 
     <footer>
         <div>
-            &copy; 2001-2020 Синий луг<br>
-            Официальный сайт Курорта Синий Луг
+            &copy; <small><strong>2001-2020 Синий луг</strong><br>
+                Официальный сайт Курорта Синий Луг</small>
             <a href="policy.html">
-                <p>Политика конфиденциальности</p>
+                <small>Политика конфиденциальности</small>
             </a>
         </div>
 
         <div>
             <a href="feedback.html">
-                <span>Обратная связь</span>
+                <small><strong>Обратная связь</strong></small>
             </a>
-            <p>Россия,<br>Москва, 113337, ул. Советская, д. 42</p>
+            <small>Россия,<br>Москва, 113337, ул. Советская, д. 42</small>
         </div>
 
         <div>
-            <p>Указанные на сайте цены не являются публичной офертой (ст.435 ГК РФ). Стоимость и возможность
-                предоставления услуг необходимо уточнять в кассах</p>
+            <small>Указанные на сайте цены не являются публичной офертой (ст.435 ГК РФ). Стоимость и возможность
+                предоставления услуг необходимо уточнять в кассах</small>
         </div>
     </footer>
 
