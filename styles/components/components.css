@@ -1,0 +1,66 @@
+/* ---HEADERS--- */
+h1 {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 128%;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 8%, 1);
+    margin: 27px 0 32px 0;
+}
+
+h2 {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 128%;
+    color: hsl(23, 68%, 45%, 1);
+    margin: 0 0 33px 0;
+}
+
+h3 {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 128%;
+    color: hsl(0, 0%, 8%, 1);
+}
+
+
+/* ---BUTTONS--- */
+.primary {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: hsl(23, 50%, 80%, 1);
+    text-decoration: none;
+    padding: 5px 13px 5px 13px;
+    background-color: hsl(23, 68%, 45%, 1);
+    border: 1px solid hsl(23, 68%, 45%, 1);
+    border-radius: 20px;
+}
+
+.secondary {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: hsl(23, 68%, 45%, 1);
+    text-decoration: none;
+    padding: 5px 13px 5px 13px;
+    border: 1px solid hsl(23, 68%, 45%, 1);
+    border-radius: 20px;
+}
+
+.secondary-light {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: hsl(23, 50%, 80%, 1);
+    text-decoration: none;
+    padding: 5px 13px 5px 13px;
+    border: 1px solid hsl(23, 50%, 80%, 1);
+    border-radius: 20px;
+}
