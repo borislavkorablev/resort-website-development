@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 56px 70px;
+    border-top: 1px solid hsl(0, 0%, 48%, 1);
+
+    & a {
+        text-decoration: none;
+    }
+
+    & a:hover {
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-color: hsl(0, 0%, 26%, 1);
+    }
+
+    & small {
+        font-family: 'Montserrat', Verdana, sans-serif;
+        color: hsl(0, 0%, 26%, 1);
+    }
+}
+
+.footer__item {
+    max-width: 36ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
